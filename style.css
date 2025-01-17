@@ -74,6 +74,7 @@ header .banner .content .left .text .search button {
   border: none;
   background: #FFFFFF;
 }
+
 #tahpan .head {
   padding-top: 100px;
   padding-bottom: 64px;
@@ -95,4 +96,8 @@ header .banner .content .left .text .search button {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
+}
+#tahpan .content .cards p {
+  width: 232px;
+  color: rgba(32, 50, 57, 0.549);
 }/*# sourceMappingURL=style.css.map */
