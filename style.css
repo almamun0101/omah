@@ -12,6 +12,11 @@ p {
   line-height: 30px;
 }
 
+a {
+  text-decoration: none;
+  color: #203239;
+}
+
 header .navbar {
   position: absolute;
   width: 100%;
@@ -100,4 +105,7 @@ header .banner .content .left .text .search button {
 #tahpan .content .cards p {
   width: 232px;
   color: rgba(32, 50, 57, 0.549);
+}
+#tahpan .content .cards i {
+  padding-left: 8px;
 }/*# sourceMappingURL=style.css.map */
