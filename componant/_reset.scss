@@ -16,5 +16,10 @@ body{
     height: 50px;
     border-radius: 10px;
     padding: 13px 41px 13px 12px;
-    
+}
+@mixin heading(){
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  
 }
