@@ -6,6 +6,12 @@ body {
   max-width: 1166px;
 }
 
+p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
 header .navbar {
   position: absolute;
   width: 100%;
@@ -52,10 +58,7 @@ header .banner .content .left .text h1 {
 }
 header .banner .content .left .text p {
   width: 544px;
-  font-size: 16px;
   padding-bottom: 55px;
-  font-weight: 300;
-  line-height: 30px;
 }
 header .banner .content .left .text .search input {
   width: 508px;
@@ -70,4 +73,26 @@ header .banner .content .left .text .search button {
   border-radius: 15px;
   border: none;
   background: #FFFFFF;
+}
+#tahpan .head {
+  padding-top: 100px;
+  padding-bottom: 64px;
+}
+#tahpan .head h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  -moz-text-align-last: left;
+       text-align-last: left;
+  width: 533px;
+}
+#tahpan .content .cards {
+  border: 1px solid #EEEDDE;
+  border-radius: 10px;
+  padding: 30px 33px;
+}
+#tahpan .content .cards h2 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
 }/*# sourceMappingURL=style.css.map */

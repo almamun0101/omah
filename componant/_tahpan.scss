@@ -1,0 +1,28 @@
+#tahpan{
+    .head{
+        padding-top: 100px;
+        padding-bottom: 64px;
+        h1{
+            @include heading();
+            width: 533px;
+        }
+        
+    }
+    .content{
+        .cards{
+            border: 1px solid $primarry;
+            border-radius: 10px;
+            padding:30px 33px;
+            h2{
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+
+            }
+            p{
+                
+            }
+
+        }
+    }
+}

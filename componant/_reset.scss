@@ -10,6 +10,12 @@ body{
     max-width: 1166px;
 
 }
+p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    
+}
 
 @mixin button(){
     width: 234px;
@@ -21,5 +27,5 @@ body{
   font-size: 36px;
   font-weight: 600;
   line-height: 54px;
-  
+  text-align-last: left;
 }
