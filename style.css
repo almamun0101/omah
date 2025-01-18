@@ -219,4 +219,26 @@ header .banner .content .left .text .search button {
 #kata .content p {
   width: 356px;
   padding-top: 8px;
+}
+
+#footer {
+  background: #EEEDDE;
+  padding-top: 48px;
+}
+#footer h3 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  -moz-text-align-last: left;
+       text-align-last: left;
+}
+#footer .boxs {
+  padding-top: 74px;
+  padding-bottom: 48px;
+}
+#footer .boxs .card {
+  padding-top: 25px;
+}
+#footer .boxs .card i {
+  padding-left: 41px;
 }/*# sourceMappingURL=style.css.map */
