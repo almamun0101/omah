@@ -1,9 +1,13 @@
 body {
   font-family: "Roboto Condensed", serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .container {
   max-width: 1166px;
+  margin: 0 auto;
 }
 
 p {
@@ -18,9 +22,8 @@ a {
 }
 
 header .navbar {
-  position: absolute;
   width: 100%;
-  color: #203239;
+  position: absolute;
 }
 header .navbar ul {
   gap: 100px;
@@ -44,7 +47,6 @@ header .navbar ul li a:hover {
   font-weight: 600;
 }
 header .banner {
-  width: 100%;
   background: #EEEDDE;
 }
 header .banner .content {
@@ -93,9 +95,12 @@ header .banner .content .left .text .search button {
   width: 533px;
 }
 #tahpan .content .cards {
-  border: 1px solid #EEEDDE;
+  border: 1px solid transparent;
   border-radius: 10px;
   padding: 30px 33px;
+}
+#tahpan .content .cards:hover {
+  border: 1px solid #EEEDDE;
 }
 #tahpan .content .cards h2 {
   font-size: 16px;
@@ -104,7 +109,8 @@ header .banner .content .left .text .search button {
 }
 #tahpan .content .cards p {
   width: 232px;
-  color: rgba(32, 50, 57, 0.549);
+  color: rgba(32, 50, 57, 0.5490196078);
+  padding-bottom: 48px;
 }
 #tahpan .content .cards i {
   padding-left: 8px;
