@@ -1,19 +1,42 @@
-#footer{
+#footer {
     background: $primarry;
     padding-top: 48px;
-    h3{
+
+    h3 {
         @include heading();
     }
-    .boxs{
+
+    .boxs {
         padding-top: 74px;
         padding-bottom: 48px;
-        .card{
-            padding-top: 25px;
-            i{
-                padding-left: 41px;
-                
+        gap: 24px;
+
+        .card {
+
+            .info {
+                gap: 10px;
+                justify-content: center;
+                padding: 25px 41px;
+
+            }
+
+            button {
+                margin-left: 30%;
+                width: 108px;
+                margin-bottom: 15px;
+                border-radius: 5px;
+                background: $black;
+                color: $white;
+
             }
 
         }
     }
+
+    .logo {
+        img {
+            padding-top: 69px;
+        }
+    }
+
 }

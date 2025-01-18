@@ -235,10 +235,41 @@ header .banner .content .left .text .search button {
 #footer .boxs {
   padding-top: 74px;
   padding-bottom: 48px;
+  gap: 24px;
 }
-#footer .boxs .card {
-  padding-top: 25px;
+#footer .boxs .card .info {
+  gap: 10px;
+  justify-content: center;
+  padding: 25px 41px;
 }
-#footer .boxs .card i {
-  padding-left: 41px;
+#footer .boxs .card button {
+  margin-left: 30%;
+  width: 108px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background: #203239;
+  color: #FFFFFF;
+}
+#footer .logo img {
+  padding-top: 69px;
+}
+
+#bottom {
+  background: #203239;
+}
+#bottom .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+#bottom .bottom ul {
+  display: flex;
+  gap: 64px;
+}
+#bottom .bottom ul li {
+  list-style: none;
+}
+#bottom .bottom ul li a {
+  color: white;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+#bottom {
+    background: $black;
+
+    .bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+
+        ul {
+            display: flex;
+            gap: 64px;
+
+            li {
+                list-style: none;
+
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+}
