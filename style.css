@@ -94,13 +94,34 @@ header .banner .content .left .text .search button {
        text-align-last: left;
   width: 533px;
 }
+#tahpan .content {
+  padding-bottom: 100px;
+}
 #tahpan .content .cards {
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: 10px;
   padding: 30px 33px;
+  position: relative;
+}
+#tahpan .content .cards::after {
+  content: "";
+  width: 8px;
+  height: 30px;
+  border-radius: 5px;
+  background: #FF7527;
+  position: absolute;
+  top: 30px;
+  left: 0;
 }
 #tahpan .content .cards:hover {
-  border: 1px solid #EEEDDE;
+  border: 2px solid #EEEDDE;
+}
+#tahpan .content .cards .date {
+  color: #FF7527;
+  position: absolute;
+  top: 25px;
+  right: 50px;
+  font-size: 20px;
 }
 #tahpan .content .cards h2 {
   font-size: 16px;

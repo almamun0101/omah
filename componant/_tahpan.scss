@@ -1,33 +1,60 @@
-#tahpan{
-    .head{
+#tahpan {
+    .head {
         padding-top: 100px;
         padding-bottom: 64px;
-        h1{
+
+        h1 {
             @include heading();
             width: 533px;
         }
-        
+
     }
-    .content{
-        .cards{
-            &:hover{
-                border: 1px solid $primarry;
-            }
-            border: 1px solid transparent;
+
+    .content {
+        padding-bottom: 100px;
+
+        .cards {
+            border: 2px solid transparent;
             border-radius: 10px;
             padding:30px 33px;
-            h2{
+            position: relative;
+
+            &::after{
+                content: '';
+                width: 8px;
+                height: 30px;
+                border-radius: 5px;
+                background: $orange;
+                position: absolute;
+                top:30px;
+                left: 0;
+            }
+
+            &:hover {
+                border: 2px solid $primarry;
+            }
+
+            .date{
+                color: $orange;
+                position: absolute;
+                top: 25px;
+                right: 50px;
+                font-size: 20px;
+            }
+            h2 {
                 font-size: 16px;
                 font-weight: 500;
                 line-height: 24px;
 
             }
-            p{
+
+            p {
                 width: 232px;
                 color: #2032398c;
                 padding-bottom: 48px;
             }
-            i{
+
+            i {
                 padding-left: 8px;
             }
 

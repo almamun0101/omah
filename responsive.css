@@ -1,0 +1,45 @@
+@media (min-width: 320px) and (max-width: 575px) { 
+    header .banner .content {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    header .banner .content .left .text h1 {
+        width: auto;
+        padding-bottom: 24px;
+        font-size: 30px;
+        line-height: 44px;
+    }
+    header .banner .content .left .text p {
+        width: auto;
+        padding-bottom: 25px;
+    }
+    header .banner .content .left .text .search input {
+        width: auto;
+    }
+
+    /* telphan */
+    #tahpan .content {
+        padding-bottom:64px;
+    }
+    #tahpan .head {
+        padding-top: 64px;
+        padding-bottom: 14px;
+    }
+    #tahpan .head h1 {
+        font-size: 30px;
+        line-height: 40px;
+        width: auto;
+    }
+
+    /* resident */
+    #resident .head {
+        padding-top: 38px;
+        padding-bottom: 32px;
+    }
+    #resident .content .group_img .img1 {
+      width: 250px;
+    }
+    #resident .content .group_img .img2 {
+        width: 250px;
+    }
+ }
