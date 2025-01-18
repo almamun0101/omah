@@ -30,6 +30,13 @@ a{
     border-radius: 10px;
     padding: 13px 41px 13px 12px;
 }
+@mixin sub-heading(){
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align-last: left;
+  color: $orange;
+}
 @mixin heading(){
   font-size: 36px;
   font-weight: 600;

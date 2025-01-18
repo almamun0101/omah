@@ -114,4 +114,109 @@ header .banner .content .left .text .search button {
 }
 #tahpan .content .cards i {
   padding-left: 8px;
+}
+
+#resident {
+  background: #EEEDDE;
+}
+#resident .head {
+  padding-top: 68px;
+  padding-bottom: 64px;
+}
+#resident .head h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  -moz-text-align-last: left;
+       text-align-last: left;
+  color: #FF7527;
+  padding-bottom: 8px;
+}
+#resident .head h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  -moz-text-align-last: left;
+       text-align-last: left;
+}
+#resident .content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#resident .content .group_img .img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#resident .content .group_img .img2 {
+  position: absolute;
+  left: 167px;
+  top: 60px;
+}
+#resident .content .text h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  -moz-text-align-last: left;
+       text-align-last: left;
+  width: 507px;
+}
+#resident .content .text p {
+  padding-top: 24px;
+  width: 570px;
+}
+#resident .content .text .buttons {
+  padding-top: 48px;
+  padding-bottom: 260px;
+  display: flex;
+  gap: 48px;
+}
+#resident .content .text .buttons button {
+  width: 234px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 13px 41px 13px 12px;
+  padding: 13px 41px;
+  background: #203239;
+  color: #EEEDDE;
+}
+#resident .content .text .buttons button:hover {
+  background: transparent;
+  color: #203239;
+}
+
+#kata .head {
+  padding-top: 68px;
+}
+#kata .head h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  -moz-text-align-last: left;
+       text-align-last: left;
+  color: #FF7527;
+  padding-bottom: 8px;
+}
+#kata .head h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  -moz-text-align-last: left;
+       text-align-last: left;
+  padding-bottom: 64px;
+}
+#kata .content {
+  padding-bottom: 68px;
+}
+#kata .content h4 {
+  padding-top: 16px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+#kata .content p {
+  width: 356px;
+  padding-top: 8px;
 }/*# sourceMappingURL=style.css.map */

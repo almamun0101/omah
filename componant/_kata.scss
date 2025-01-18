@@ -1,0 +1,28 @@
+#kata{
+    .head{
+        padding-top: 68px;
+        h4{
+            @include sub-heading();
+            padding-bottom: 8px;
+        }
+        h2{
+            @include heading();
+            padding-bottom: 64px;
+        }
+    }
+    .content{
+        padding-bottom: 68px;
+        h4{
+            padding-top: 16px;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 36px;
+            
+        }
+        p{
+            width: 356px;
+            padding-top: 8px;
+
+        }
+    }
+}

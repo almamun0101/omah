@@ -1,0 +1,77 @@
+#resident {
+    background: $primarry;
+
+    .head {
+        padding-top: 68px;
+        padding-bottom: 64px;
+
+        h4 {
+            @include sub-heading();
+            padding-bottom: 8px;
+
+        }
+
+        h2 {
+            @include heading();
+
+        }
+    }
+
+    .content {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .group_img {
+           
+            .img1 {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            .img2 {
+                position: absolute;
+                left: 167px;
+                top: 60px;
+            }
+        }
+
+        .text {
+
+            // padding-top: 257px;
+            h2 {
+                @include heading();
+                width: 507px;
+            }
+
+            p {
+                padding-top: 24px;
+                width: 570px;
+
+            }
+
+            .buttons {
+                padding-top: 48px;
+                padding-bottom: 260px;
+                display: flex;
+                gap: 48px;
+
+                button {
+                    @include button();
+                    padding: 13px 41px;
+                    background: $black;
+                    color:$primarry;
+                    
+                    &:hover{
+                        background: transparent;
+                        color: $black;
+                    }
+
+                }
+            }
+
+        }
+    }
+}
